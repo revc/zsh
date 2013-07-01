@@ -1,7 +1,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "   Filename: .vimrc                                                         "
-" Maintainer: Joe Arnet <jarnet@gmail.com>                                   "
-"        URL: http://github.com/faeroe/dotfiles                              "
+" Maintainer: Rev C <cshellhorn@gmail.com>                                   "
+"        URL: http://github.com/revc/zsh                              "
 "                                                                            "
 "                                                                            "
 " Sections:                                                                  "
@@ -10,6 +10,7 @@
 "   03. Theme/Colors ............ Colors, fonts, etc.                        "
 "   04. Vim UI .................. User interface behavior                    "
 "   05. Text Formatting/Layout .. Text, tab, indentation related             "
+"   06. MISC .................... Miscellanous stuff                         "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -66,6 +67,10 @@ set smarttab              " use tabs at the start of a line, spaces elsewhere
 set paste                 " sets paste mode, sanity when pasting files from clipboard
 set mouse=a
 set mouse=r
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 06. MISC                                                 "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 execute pathogen#infect()
 call pathogen#helptags()
