@@ -1,4 +1,5 @@
-# README - open sourced to hack the planet
+# README 
+- open sourced to hack the planet
 
 # "Got to Git Git Git Git Git Git Git..."
 
